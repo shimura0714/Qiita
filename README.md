@@ -13,6 +13,8 @@ brew install python3
 brew install postgres
 pip install psycopg2
 
+[pip install](https://qiita.com/ms-rock/items/6e4498a5963f3d9c4a67)
+
 ## Licence
 Free
 (煮るなり焼くなりご自由に)
