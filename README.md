@@ -1,19 +1,19 @@
 Name
 shimura.atsushi
 
-Overview
+## Over View
 pythonに関する実験ソースコードをUPしてあります。
 
 ## Requirement
 python 3.6.3
 
 ## Install
-4mac 
+for mac 
 brew install python3
-python #####.py
+brew install postgres
+pip install psycopg2
 
 ## Licence
-
 Free
 (煮るなり焼くなりご自由に)
 
