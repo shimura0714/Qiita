@@ -8,10 +8,10 @@ pythonに関する実験ソースコードをUPしてあります。
 python 3.6.3
 
 ## Install
-for mac 
-brew install python3
-brew install postgres
-pip install psycopg2
+for mac  
+brew install python3  
+brew install postgres  
+pip install psycopg2  
 
 [pip install](https://qiita.com/ms-rock/items/6e4498a5963f3d9c4a67)
 
