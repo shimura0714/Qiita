@@ -7,3 +7,6 @@ class Intermediate(beginner.Beginner):
 
 my = Intermediate(100)
 print (my.getExperiencePoint())  
+
+my.point = 1000
+print(my.point)
