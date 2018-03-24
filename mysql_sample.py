@@ -18,13 +18,8 @@ for result in results:
 
 sql = "insert into test (name) values (%s)"
 
-data = {
-  ("001"),
-  ("002"),
-  ("003"),
-  ("004")
-}
-cursor.execute(sql, data, True)
+data = ["004"]
+cursor.execute(sql, data)
 con.commit()
 cursor.close()
 con.close()
