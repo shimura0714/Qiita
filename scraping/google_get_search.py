@@ -1,6 +1,5 @@
 import urllib.request
 import sys
-from bs4 import BeautifulSoup
 
 url = "https://www.google.co.jp/search?q={0}".format(sys.argv[1])
 headers = {
