@@ -9,10 +9,9 @@ headers = {
 
 request = urllib.request.Request(url, headers=headers)
 response = urllib.request.urlopen(request)
-s = BeautifulSoup(response, 'html.parser')
-#s = BeautifulSoup(response, 'lxml')
+s = BeautifulSoup(response, 'lxml')
 #require lxml
 #pip install lxml
-results = s.find_all("a")
-for result in results:
-  print(result.get("href"))
+h3 = s.select(".r")
+for result in h3:
+  print(result.a.get("href"))
