@@ -1,6 +1,7 @@
 import urllib.request
 import sys
 from bs4 import BeautifulSoup
+import json
 
 url = "https://www.google.co.jp/search?q={0}".format(sys.argv[1])
 headers = {
@@ -13,5 +14,9 @@ s = BeautifulSoup(response, 'lxml')
 #require lxml
 #pip install lxml
 h3 = s.select(".r")
+url_list = []
 for result in h3:
-  print(result.a.get("href"))
+  url_list.append(result.a.get("href"))
+
+json_str = json.dumps(url_list)
+print (json_str)
