@@ -17,7 +17,6 @@ pip install psycopg2
 
 ## Licence
 Free
-(煮るなり焼くなりご自由に)
 
 ## Author
 
